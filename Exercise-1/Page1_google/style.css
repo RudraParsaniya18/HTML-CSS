@@ -76,3 +76,306 @@ a{
     font-size: 20px;    
 }
 
+.main-content {
+    min-height: calc(100vh - 156px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 180px;
+}
+
+
+/* =========================
+   GOOGLE LOGO
+   ========================= */
+
+.google-logo {
+    font-family: Arial, sans-serif;
+    font-size: 96px;
+    font-weight: 500;
+    letter-spacing: -7px;
+
+    margin-bottom: 28px;
+}
+
+
+/* =========================
+   SEARCH BOX
+   ========================= */
+
+.search-box {
+    width: 584px;
+    height: 48px;
+
+    border-radius: 24px;
+
+    background-color: #4d5156;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 16px;
+}
+
+
+/* Search icon */
+
+.search-icon {
+    width: 14px;
+    height: 14px;
+
+    border: 2px solid #9aa0a6;
+    border-radius: 50%;
+
+    position: relative;
+
+    margin-right: 17px;
+}
+
+.search-icon::after {
+    content: "";
+
+    position: absolute;
+
+    width: 7px;
+    height: 2px;
+
+    background-color: #9aa0a6;
+
+    transform: rotate(45deg);
+
+    right: -5px;
+    bottom: -3px;
+}
+
+
+/* Input */
+
+.search-box input {
+    flex: 1;
+
+    height: 100%;
+
+    background: transparent;
+
+    border: none;
+    outline: none;
+
+    color: white;
+
+    font-size: 16px;
+}
+
+
+/* =========================
+   VOICE ICON
+   ========================= */
+
+.voice-icon {
+    width: 28px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 8px;
+}
+
+.mic {
+    width: 9px;
+    height: 18px;
+
+    border-radius: 5px;
+
+    background-color: #4285f4;
+
+    position: relative;
+}
+
+.mic::before {
+    content: "";
+
+    position: absolute;
+
+    width: 15px;
+    height: 18px;
+
+    border-left: 2px solid #ea4335;
+    border-right: 2px solid #34a853;
+
+    border-bottom: 2px solid #fbbc05;
+
+    border-radius: 0 0 10px 10px;
+
+    left: -5px;
+    top: 7px;
+}
+
+
+/* =========================
+   LENS ICON
+   ========================= */
+
+.lens-icon {
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lens-circle {
+    width: 16px;
+    height: 16px;
+
+    border: 3px solid #4285f4;
+
+    border-radius: 50%;
+
+    position: relative;
+}
+
+.lens-circle::before {
+    content: "";
+
+    position: absolute;
+
+    width: 5px;
+    height: 5px;
+
+    background-color: #34a853;
+
+    border-radius: 50%;
+
+    right: -4px;
+    top: -3px;
+}
+
+.lens-circle::after {
+    content: "";
+
+    position: absolute;
+
+    width: 5px;
+    height: 5px;
+
+    background-color: #ea4335;
+
+    border-radius: 50%;
+
+    left: -4px;
+    bottom: -3px;
+}
+
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+.buttons {
+    display: flex;
+
+    gap: 11px;
+
+    margin-top: 29px;
+}
+
+.buttons button {
+    background-color: #303134;
+
+    color: #ffffff;
+
+    border: 1px solid #303134;
+
+    border-radius: 4px;
+
+    padding: 10px 17px;
+
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    border: 1px solid #5f6368;
+}
+
+
+/* =========================
+   LANGUAGES
+   ========================= */
+
+.languages {
+    margin-top: 28px;
+
+    font-size: 14px;
+
+    display: flex;
+    gap: 9px;
+
+    align-items: center;
+}
+
+.languages span {
+    color: #bdc1c6;
+}
+
+.languages a {
+    color: #8ab4f8;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background-color: #171717;
+
+    color: #bdc1c6;
+
+    font-size: 14px;
+}
+
+
+/* Country */
+
+.country {
+    height: 47px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 24px;
+
+    border-bottom: 1px solid #303134;
+}
+
+
+/* Footer links */
+
+.footer-links {
+    height: 48px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 28px;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a {
+    color: #ffffff;
+}
