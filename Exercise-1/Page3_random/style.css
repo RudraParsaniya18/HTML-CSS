@@ -5,7 +5,7 @@
 }
 
 .top-line{
-    border: 15px solid rgb(78, 78, 236);
+    border: 15px solid rgb(133, 181, 243);
 }
 
 .top-nav{
@@ -126,7 +126,7 @@ a:hover{
 .read-more a{
     width: 100%;
     height: 100%;
-    background-color: rgb(78, 78, 236);
+    background-color: rgb(133, 181, 243);
     color: #ffffff;
     font-size: 20px;
     font-weight: 600;
@@ -146,23 +146,24 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
+    margin-top: 40px;
+    color: rgb(99, 99, 99);
+    font-family:'Courier New', Courier, monospace ;
 }
 
-.row-one{
+.row-one, .row-two{
     display: flex;
     align-items: center;
     /* justify-content: center; */
-    border: 2px solid red;
 
 }
 
-.one-one, .one-two, .one-three{
+.one-one, .one-two, .one-three, .two-one, .two-two, .two-three{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid blue;
     height: 200px;
     width: 500px;
     margin-left: 80px;
@@ -174,7 +175,8 @@ a:hover{
     width: 200px;
     height:100px;
     display: flex;
-    border: 2px solid red;
+    height: 200px;
+    width: 300px;
 }
 
 .image img{
@@ -184,3 +186,90 @@ a:hover{
     
 }
 
+.text h4{
+    margin-left: 10px;
+    color: rgb(133, 181, 243);
+    font-size: large;
+}
+
+.text p{
+    margin-left: 10px;
+
+}
+
+.footer{
+    background-color: #353131;
+    color: aliceblue;
+}
+
+.footer-container{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height:300px ;
+}
+
+.footer-contact, .footer-links, .footer-blog, .footer-newsletter{
+    height: 300px;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+a{
+    color: rgb(133, 181, 243);
+}
+
+.input-box, .email-box {
+    width: 200px;
+    height: 48px;
+    background-color: #4d5156;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    
+}
+.input-box input,.email-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #ffffff;
+    color: #171515;
+    font-size: 18px;
+    border-radius: 7px;
+    box-shadow: #c2c2c3 0px 0px 3px 0px;
+}
+
+
+.submit-button {
+    height: 50px;
+    width: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.submit-button button {
+    width: 100%;
+    height: 100%;
+    background-color: #1877f2;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #2b2929;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
