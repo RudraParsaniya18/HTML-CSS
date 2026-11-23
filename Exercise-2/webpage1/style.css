@@ -1,13 +1,5 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.top-line {
-    border: 15px solid rgb(133, 181, 243);
-}
 
 /* Header */
 .top-nav {
@@ -30,8 +22,8 @@
 /* Logo */
 .logo {
     font-size: 40px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Right navigation */
@@ -43,7 +35,8 @@
     gap: 55px;
     font-size: 23px;
     margin-right: 50px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Navigation links */
@@ -110,7 +103,6 @@ a:hover {
 .dropdown-menu li:hover {
     text-decoration: none;
     background-color: rgb(240, 239, 239);
-
 }
 
 .dropdown-menu li:hover a {
@@ -118,6 +110,7 @@ a:hover {
     color: rgb(100, 194, 210);
 }
 
+/* Box 1 */
 .box-1 {
     width: 100%;
     height: 400px;
@@ -133,7 +126,8 @@ a:hover {
     justify-content: center;
     font-size: 50px;
     padding-top: 100px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .box-1-content-2 {
@@ -142,13 +136,15 @@ a:hover {
     justify-content: center;
     font-size: 20px;
     padding-top: 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
     color: rgb(112, 112, 112);
     width: 60%;
     margin: 0 auto;
 }
 
+/* Box 2 */
 .box-2 {
     width: 100%;
     height: 400px;
@@ -157,18 +153,20 @@ a:hover {
     align-items: center;
     text-align: center;
     display: flex;
-
 }
 
-
-.box-2-1-image, .box-2-2-image, .box-2-3-image {
+.box-2-1-image,
+.box-2-2-image,
+.box-2-3-image {
     width: 300px;
-    height:200px;
+    height: 200px;
     display: flex;
     margin-top: 10px;
 }
 
-.box-2-1-image img, .box-2-2-image img, .box-2-3-image img {
+.box-2-1-image img,
+.box-2-2-image img,
+.box-2-3-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -176,23 +174,30 @@ a:hover {
     margin-top: 40px;
 }
 
-.box-2-1-text, .box-2-2-text, .box-2-3-text {
+.box-2-1-text,
+.box-2-2-text,
+.box-2-3-text {
     font-weight: 500;
     font-size: 25px;
     margin-top: 50px;
     margin-left: 70px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.box-2-1-description, .box-2-2-description, .box-2-3-description {
+.box-2-1-description,
+.box-2-2-description,
+.box-2-3-description {
     font-size: large;
     margin-top: 10px;
     width: 400px;
     margin-left: 70px;
     color: #777676;
-    font-family:'Lucida Sans', 'Lucida Sans Regular','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Box 3 */
 .box-3 {
     width: 100%;
     height: 400px;
@@ -208,7 +213,8 @@ a:hover {
     justify-content: center;
     font-size: 50px;
     padding-top: 100px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .box-3-content-2 {
@@ -217,23 +223,25 @@ a:hover {
     justify-content: center;
     font-size: 20px;
     padding-top: 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
     color: rgb(112, 112, 112);
     width: 60%;
     margin: 0 auto;
 }
 
-.box-4{
+/* Box 4 */
+.box-4 {
     width: 100%;
     height: 750px;
     background-color: rgb(240, 239, 239);
     justify-content: center;
     align-items: center;
     text-align: center;
-    }
+}
 
-.box-4-1{
+.box-4-1 {
     width: 100%;
     height: 400px;
     background-color: rgb(240, 239, 239);
@@ -245,7 +253,7 @@ a:hover {
 
 .box-4-1-image {
     width: 400px;
-    height:300px;
+    height: 300px;
     display: flex;
 }
 
@@ -254,11 +262,9 @@ a:hover {
     height: 100%;
     object-fit: cover;
     margin-left: 80px;
-    
 }
 
-
-.box-4-2{
+.box-4-2 {
     width: 100%;
     height: 400px;
     background-color: rgb(240, 239, 239);
@@ -269,7 +275,7 @@ a:hover {
 
 .box-4-2-image {
     width: 400px;
-    height:300px;
+    height: 300px;
     display: flex;
 }
 
@@ -280,16 +286,8 @@ a:hover {
     margin-left: 80px;
 }
 
-.box-5{
-    width: 100%;
-    height: 400px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.box-5{
+/* Box 5 */
+.box-5 {
     width: 100%;
     height: 600px;
     background-color: rgb(37, 60, 80);
@@ -298,33 +296,39 @@ a:hover {
     text-align: center;
 }
 
-.box-5 h2{
+.box-5 h2 {
     color: white;
     font-size: 50px;
     padding-top: 100px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.box-5 h5{
+.box-5 h5 {
     color: rgb(202, 201, 201);
     font-size: 20px;
     padding-top: 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
     width: 60%;
     margin: 0 auto;
 }
 
-.input-box, .email-box, .message-box {
+.input-box,
+.email-box,
+.message-box {
     width: 500px;
     height: 48px;
     background-color: #4d5156;
     margin-top: 10px;
     border-radius: 50px;
     margin-left: 660px;
-    
 }
-.input-box input,.email-box input, .message-box input{
+
+.input-box input,
+.email-box input,
+.message-box input {
     width: 100%;
     height: 100%;
     border: none;
@@ -333,6 +337,19 @@ a:hover {
     font-size: 18px;
     border-radius: 7px;
     box-shadow: #c2c2c3 0px 0px 3px 0px;
+}
+
+/* Textarea styling */
+.message-box textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #ffffff;
+    color: #171515;
+    font-size: 18px;
+    border-radius: 7px;
+    box-shadow: #c2c2c3 0px 0px 3px 0px;
+    resize: none;
 }
 
 .emnam {
@@ -344,7 +361,20 @@ a:hover {
     justify-content: center;
     display: flex;
     gap: 270px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: rgb(202, 201, 201);
+}
+
+/* Bootstrap button: retain cyan theme */
+.submit-button .btn-info {
+    background-color: rgb(100, 194, 210);
+    border-color: rgb(100, 194, 210);
+    color: white;
+}
+
+.submit-button .btn-info:hover {
+    background-color: rgb(75, 170, 190);
+    border-color: rgb(75, 170, 190);
 }
